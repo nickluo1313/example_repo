@@ -1,6 +1,9 @@
 ---
 title: "Simple document"
-output: github_document
+output: 
+html_document:
+  toc:true
+  toc_float:true
 ---
 
 I'm an R Markdown document! 
@@ -15,7 +18,20 @@ samp = rnorm(100)
 length(samp)
 ```
 
+## 1.1
+
+
 # Section 2
 
 I can take the mean of the sample, too!
 The mean is `r mean(samp)`.
+
+# Section3
+
+# Section 4
+
+# Section 5
+
+# Section 6
+
+
